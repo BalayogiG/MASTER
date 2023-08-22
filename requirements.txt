@@ -6,5 +6,4 @@ pypng==0.20220715.0
 math_pi==0.07
 psycopg2==2.9.6
 uvicorn==0.22.0
-webbrowser
-json
+
