@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>MASTER - Multi-device based Authentication model using Stegged QR codes</title>
+ <link rel="stylesheet" href="{{ url_for('static', path='/styles.css') }}">
+ <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+  <a href="/"> <h2>MASTER - Multi-device based Authentication model using Stegged QR codes</h2> </a>
+  <div id=container>
+        <a href="/register" class="button button-blue">
+            <img src="{{ url_for('static', path='add.png') }}" width="200px" height="200px" alt="register account"><br><br>
+            Create an account
+        </a>
+        <a href="/user_search" class="button button-green">
+            <img src="{{ url_for('static', path='user_search.png') }}" width="200px" height="200px" alt="Search account"><br><br>
+            Search User
+        </a>
+  </div>
+</body>
+</html>
